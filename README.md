@@ -7,7 +7,7 @@ This project aims to *predict weekly sales for Walmart stores and departments* u
 
 The solution follows a *complete end-to-end Data Science pipeline*, from data preprocessing and feature engineering to model training, evaluation, and prediction.
 
----
+
 
 ## 🎯 Business Problem
 
@@ -20,7 +20,7 @@ Accurate sales forecasting helps retailers:
 
 This project focuses on *forecasting weekly sales at the department level* using historical and external features.
 
----
+
 
 ## 🧠 Approach & Methodology
 
@@ -34,7 +34,7 @@ The dataset includes:
 * Fuel prices
 * Holiday and promotional markdown data
 
----
+
 
 ### 2️⃣ Data Preprocessing
 
@@ -44,7 +44,7 @@ The dataset includes:
 * Converted categorical variables into numerical format
 * Ensured consistency between training and test datasets
 
----
+
 
 ### 3️⃣ Feature Engineering
 
@@ -57,7 +57,7 @@ To capture time-based sales patterns, advanced features were engineered:
 
 These features help the model understand *temporal trends and seasonality*.
 
----
+
 
 ### 4️⃣ Model Training
 
@@ -68,7 +68,7 @@ These features help the model understand *temporal trends and seasonality*.
   * Robust to outliers
   * Performs well on structured tabular data
 
----
+
 
 ### 5️⃣ Model Evaluation
 
@@ -76,7 +76,7 @@ These features help the model understand *temporal trends and seasonality*.
 * Achieved RMSE: *~5229*
 * The model demonstrates strong predictive capability given the scale and variability of retail sales data.
 
----
+
 
 ### 6️⃣ Predictions & Model Saving
 
@@ -84,7 +84,7 @@ These features help the model understand *temporal trends and seasonality*.
 * Saved results as CSV for further analysis
 * Persisted trained model using joblib for deployment or future inference
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -98,7 +98,7 @@ These features help the model understand *temporal trends and seasonality*.
 * *Model:* Random Forest Regressor
 * *Version Control:* Git & GitHub
 
----
+
 
 ## 📂 Project Structure
 
@@ -106,25 +106,9 @@ These features help the model understand *temporal trends and seasonality*.
 Walmart-Sales-Forecasting/
 │
 ├── data/
-│   ├── 01_train.csv
-│   ├── 02_test.csv
-│   ├── 03_features.csv
-│   ├── 04_stores.csv
-│   ├── 05_merged_data.csv
-│   ├── 06_model_ready_data.csv
-│   ├── 07_model_predictions.csv
-│   ├── 08_test_predictions.csv
 │
 ├── src/
-│   ├── 01_load.py
-│   ├── 02_data_preprocessing.py
-│   ├── 03_feature_engineering.py
-│   ├── 04_model_training.py
-│   ├── 05_test_prediction.py
-│
-├── model/
-│   └── walmart_model.pkl
-│
+│   
 ├── README.md
 └── requirements.txt
 
