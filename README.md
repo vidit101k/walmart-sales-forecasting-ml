@@ -98,19 +98,43 @@ These features help the model understand *temporal trends and seasonality*.
 * *Model:* Random Forest Regressor
 * *Version Control:* Git & GitHub
 
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the repository
+bash
+git clone https://github.com/your-username/walmart-sales-forecasting-ml.git
+cd walmart-sales-forecasting-ml
+`
+
+### 2️⃣ Create virtual environment (optional)
+
+bash
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
 
-## 📂 Project Structure
+### 3️⃣ Install dependencies
+
+bash
+pip install -r requirements.txt
 
 
-Walmart-Sales-Forecasting/
-│
-├── data/
-│
-├── src/
-│   
-├── README.md
-└── requirements.txt
+### 4️⃣ Run training
+
+bash
+python Src/04_model_training.py
+
+
+### 5️⃣ Run prediction
+
+bash
+python Src/05_test_prediction.py
+
+
+---
+
+
+
 
 
 ---
