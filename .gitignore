@@ -1,0 +1,7 @@
+venv/
+
+pkl
+walmart_model.pkl
+
+csv
+06_model_ready_data.csv
