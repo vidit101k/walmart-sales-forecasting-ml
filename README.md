@@ -102,9 +102,9 @@ These features help the model understand *temporal trends and seasonality*.
 
 ### 1️⃣ Clone the repository
 bash
-git clone https://github.com/your-username/walmart-sales-forecasting-ml.git
+git clone https://github.com/vidit101k/walmart-sales-forecasting-ml.git
 cd walmart-sales-forecasting-ml
-`
+
 
 ### 2️⃣ Create virtual environment (optional)
 
